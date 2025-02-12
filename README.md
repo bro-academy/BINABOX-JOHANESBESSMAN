@@ -1,5 +1,5 @@
-# Binabox - homework project
+# Binabox - homework project 
 
-Student: 
+Student: JOHANES BESSMAN
 
-Mentor: 
+Mentor: ZOIA RASSADKI

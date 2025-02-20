@@ -1,5 +1,5 @@
 # Binabox - homework project
 
-Student: JOHANES BESSMAN
+git gitStudent: JOHANES BESSMAN
 
 Mentor: ZOIA RASSADKINA

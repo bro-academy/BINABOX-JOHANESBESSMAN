@@ -13,10 +13,10 @@
       </a>
       <nav class="main-navigation">
         <ul class="main-navigation__list">
-          <li class="main-navigation__list-item"><a href="#">Home</a></li>
-          <li class="main-navigation__list-item"><a href="#">Contact</a></li>
-          <li class="main-navigation__list-item"><a href="#">Blog</a></li>
-          <li class="main-navigation__list-item"><a href="#">Catalog</a></li>
+          <li class="main-navigation__list-item"><a href="index.html">Home</a></li>
+          <li class="main-navigation__list-item"><a href="contact.html">Contact</a></li>
+          <li class="main-navigation__list-item"><a href="blog.html">Blog</a></li>
+          <li class="main-navigation__list-item"><a href="catalog.html">Catalog</a></li>
         </ul>
       </nav>
       <div>
@@ -58,9 +58,9 @@
 
         <li>
           <a href="#">
-            <article>
-              <h3><span>New</span></h3>
-              <img src="#" alt="Cat" />
+            <article class="product-card">
+              <h3><span class="label">New</span></h3>
+              <img class="product-card" alt="Cat" />
               <p>$199</p>
               <p>Name product</p>
             </article>
@@ -71,7 +71,7 @@
           <a href="#">
             <article class="product-card">
               <h3><span class="label label--updated product-card__laabel">Sold Out</span></h3>
-              <img src="#" alt="Scissors" />
+              <img class="product-card" alt="Scissors" />
               <p>$199</p>
               <p>Name product</p>
             </article>
@@ -79,9 +79,9 @@
         </li>
         <li>
           <a href="#">
-            <article>
-              <h3><span>New</span></h3>
-              <img src="#" alt="Memory Card" />
+            <article class="product-card">
+              <h3><span class="label">New</span></h3>
+              <img class="product-card" src="" alt="Memory Card" />
               <p>$199</p>
               <p>Name product</p>
             </article>
@@ -98,41 +98,33 @@
           </a>
         </li>
       </ul>
-      <!-- Our Blog -->
-      <h2>Our Blog</h2>
-      <div>
-        <h2>
-          <a href="#">NFT <img src="#" alt="#" /></a>
-        </h2>
-        <p>
-          <img src="#" alt="#" /> Tony Nguyen <img src="#" alt="#" /> 20 Jun
-          2022
-        </p>
-        <h3>Sonic live</h3>
-        <p>
-          One September 22, 2021. A volutpat nulla eros, nulla ultrices nec
-          nulla imperdiet..
-        </p>
-        <a href="#">Read more </a>
-      </div>
+      <!-- Blog Section -->
+      <section class="blog">
+        <h2 class="blog__title">Our Blog</h2>
 
-      <div>
-        <p>
-          <a href="#">NFT <img src="**" alt="#" /></a>
-        </p>
-        <p>
-          <img src="#" alt="#" /> Tony Nguyen <img src="#" alt="#" /> 20 Jun
-          2022
-        </p>
-        <h3>Sonic live</h3>
-        <p>
-          One September 22, 2021. A volutpat nulla eros, nulla ultrices nec
-          nulla imperdiet..
-        </p>
-        <a href="#">Read more ></a>
-      </div>
+        <article class="blog__post">
+            <h3 class="blog__post-title"><a href="#">NFT <img src="#" alt="NFT Icon" class="blog__post-icon" /></a></h3>
+            <p class="blog__post-meta">
+                <img src="#" alt="Author" class="blog__author-image" /> Tony Nguyen 
+                <img src="#" alt="Date" class="blog__date-icon" /> 20 Jun 2022
+            </p>
+            <h3 class="blog__post-heading">Sonic Live</h3>
+            <p class="blog__post-excerpt">
+                On September 22, 2021, a volutpat nulla eros, nulla ultrices nec nulla imperdiet...
+            </p>
+            <a href="#" class="blog__read-more">Read more</a>
+        </article>
+      </p>
+      <h3 class="blog__post-heading">Sonic Live</h3>
+      <p class="blog__post-excerpt">
+          On September 22, 2021, a volutpat nulla eros, nulla ultrices nec nulla imperdiet...
+      </p>
+      <a href="#" class="blog__read-more">Read more</a>
+  </article>
+    </section>
+          </div>
       <section class="about-us"
-      <h2>class="abou-us__title">About us</h2>
+      <h2 class="abou-us__title">About us</h2>
       <p class="about-us__description">
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
         dolore eu fugiat nulla pariatur...
@@ -431,12 +423,12 @@
           >
         </div>
       </article>
-      <!-- FAQs -->
-      <h2>FAQs</h2>
-
-      <details>
-        <summary>What are the NFTs?</summary>
-        <p>
+      <!-- FAQs Section -->
+      <section class="faq">
+          <h2 class="faq__title">FAQs</h2>
+          <details class="faq__item">
+              <summary class="faq__question">What are NFTs?</summary>
+        <p class="faq answer">
           Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis.
           Nulla dapibus urna volutpat venenatis, risus faucibus.
         </p>
@@ -454,36 +446,28 @@
         <summary>Who are the team behind the project?</summary>
       </details>
 
-      <p><img src="**" alt="**" /> Binabox</p>
+      <p><img src="#" alt="#" /> Binabox</p>
       <p>We are the best way to check the rarity of NFT collection.</p>
 
-      <!-- Footer -->
-      <footer>
-      <h2>Subscribe</h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
-
-      <h2>Company</h2>
-      <ul>
-        <li><a href="#">Terms Conditions</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Whitepaper</a></li>
-        <li><a href="#">Help Center</a></li>
-      </ul>
-
-      <p>BINABOX 2022 - All rights reserved</p>
-
-      <p>
-        <a href="#">Twitter link</a>
-        <a href="#">Facebook link</a>
-        <a href="#">Telegram link</a>
-        <a href="#">YouTube link</a>
-        <a href="#">TikTok link</a>
-      </p>
-    </main>
-  </body>
-</html>
+      <footer class="footer">
+        <h2 class="footer__title">Subscribe</h2>
+    
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item"><a href="index.html" class="footer__nav-link">Home</a></li>
+                <li class="footer__nav-item"><a href="blog.html" class="footer__nav-link">Blog</a></li>
+                <li class="footer__nav-item"><a href="catalog.html" class="footer__nav-link">Catalog</a></li>
+                <li class="footer__nav-item"><a href="contact.html" class="footer__nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    
+        <p class="footer__copyright">BINABOX 2022 - All rights reserved</p>
+    
+        <div class="footer__socials">
+            <a href="#" class="footer__social-link">Twitter</a>
+            <a href="#" class="footer__social-link">Facebook</a>
+            <a href="#" class="footer__social-link">Telegram</a>
+            <a href="#" class="footer__social-link">YouTube</a>
+            <a href="#" class="footer__social-link">TikTok</a>
+        </div>
+    </footer>

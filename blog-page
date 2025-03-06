@@ -101,14 +101,16 @@
       </article>
 
       <!-- Share Section -->
-      <aside class="share-section">
-        <h3 class="share-section__title">Share</h3>
-        <a href="#" class="share-section__button share-section__button--facebook">Facebook</a>
-        <a href="#" class="share-section__button share-section__button--twitter">Twitter</a>
-        <a href="#" class="share-section__button share-section__button--linkedin">LinkedIn</a>
-        <a href="#" class="share-section__button share-section__button--reddit">Reddit</a>
-        <a href="#" class="share-section__button share-section__button--telegram">Telegram</a>
-      </aside>
+<aside class="share-section">
+  <h3 class="share-section__title">Share</h3>
+  <div class="share-section__buttons">
+    <a href="#" class="share-section__button share-section__button--facebook">Facebook</a>
+    <a href="#" class="share-section__button share-section__button--twitter">Twitter</a>
+    <a href="#" class="share-section__button share-section__button--linkedin">LinkedIn</a>
+    <a href="#" class="share-section__button share-section__button--reddit">Reddit</a>
+    <a href="#" class="share-section__button share-section__button--telegram">Telegram</a>
+  </div>
+</aside>
     </div>
 
     <!-- FOOTER -->

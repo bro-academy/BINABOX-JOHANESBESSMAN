@@ -10,7 +10,7 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="#" alt="Binabox-logo" />
+            <img src="path/to/binabox-logo.jpg" alt="Binabox-logo" />
         </a>
         <nav class="main-navigation">
             <ul class="main-navigation__list">
@@ -21,8 +21,8 @@
             </ul>
         </nav>
         <div>
-            <button class="button button--secondary header__button">Discord</button>
-            <button class="button button--primary">Connect</button>
+            <button type="button" class="button button--secondary header__button">Discord</button>
+            <button type="button" class="button button--primary">Connect</button>
         </div>
     </header>
     <main>
@@ -33,26 +33,26 @@
                 <span>collection</span>
             </p>
             <div>
-                <div>2240+ <span>Total item</span></div>
+                <div>2240+ <span>Total items</span></div>
                 <div>1000+ <span>profiles whitelisted</span></div>
             </div>
             <div>
-                <button>Connect Wallet</button>
-                <button>Whitelist Now</button>
+                <button type="button">Connect Wallet</button>
+                <button type="button">Whitelist Now</button>
             </div>
-            <img src="#" alt="Cube Image" />
+            <img src="path/to/cube-image.jpg" alt="Cube Image" />
         </div>
-        <h2>Catalog <span></span></h2>
-        <button>See All</button>
+        <h2>Catalog</h2>
+        <button type="button">See All</button>
 
         <ul>
             <li>
                 <a href="#">
                     <article class="product-card">
-                        <h3><span class="label">New</span></h3>
-                        <img class="product-card" alt="Skeleton" />
-                        <p>$199</p>
-                        <p>Name product</p>
+                        <h3><span class="product-card__label">New</span></h3>
+                        <img class="product-card__image" src="path/to/skeleton-image.jpg" alt="Skeleton" />
+                        <p class="product-card__price">$199</p>
+                        <p class="product-card__name">Name product</p>
                     </article>
                 </a>
             </li>
@@ -60,10 +60,10 @@
             <li>
                 <a href="#">
                     <article class="product-card">
-                        <h3><span class="label">New</span></h3>
-                        <img class="product-card" alt="Cat" />
-                        <p>$199</p>
-                        <p>Name product</p>
+                        <h3><span class="product-card__label">New</span></h3>
+                        <img class="product-card__image" src="path/to/cat-image.jpg" alt="Cat" />
+                        <p class="product-card__price">$199</p>
+                        <p class="product-card__name">Name product</p>
                     </article>
                 </a>
             </li>
@@ -71,44 +71,47 @@
             <li>
                 <a href="#">
                     <article class="product-card">
-                        <h3><span class="label label--updated product-card__label">Sold Out</span></h3>
-                        <img class="product-card" alt="Scissors" />
-                        <p>$199</p>
-                        <p>Name product</p>
+                        <h3>
+                            <span class="product-card__label product-card__label--updated">Sold Out</span>
+                        </h3>
+                        <img class="product-card__image" src="path/to/scissors-image.jpg" alt="Scissors" />
+                        <p class="product-card__price">$199</p>
+                        <p class="product-card__name">Name product</p>
                     </article>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <article>
-                        <h3><span>New</span></h3>
-                        <img src="" alt="Memory Card" />
-                        <p>$199</p>
-                        <p>Name product</p>
+                    <article class="product-card">
+                        <h3><span class="product-card__label">New</span></h3>
+                        <img class="product-card__image" src="path/to/memory-card-image.jpg" alt="Memory Card" />
+                        <p class="product-card__price">$199</p>
+                        <p class="product-card__name">Name product</p>
                     </article>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <article>
-                        <h3><span>New</span></h3>
-                        <img src="#" alt=" Console" />
-                        <p>$199</p>
-                        <p>Name product</p>
+                    <article class="product-card">
+                        <h3><span class="product-card__label">New</span></h3>
+                        <img class="product-card__image" src="path/to/console-image.jpg" alt="Console" />
+                        <p class="product-card__price">$199</p>
+                        <p class="product-card__name">Name product</p>
                     </article>
                 </a>
             </li>
         </ul>
+
         <!-- Blog Section -->
         <section class="blog">
             <h2 class="blog__title">Our Blog</h2>
 
             <article class="blog__post">
-                <h3 class="blog__post-title"><a href="#">NFT <img src="#" alt="NFT Icon" class="blog__post-icon" /></a>
+                <h3 class="blog__post-title"><a href="#">NFT <img src="path/to/nft-icon.jpg" alt="NFT Icon" class="blog__post-icon" /></a>
                 </h3>
                 <p class="blog__post-meta">
-                    <img src="#" alt="Author" class="blog__author-image" /> Tony Nguyen
-                    <img src="#" alt="Date" class="blog__date-icon" /> 20 Jun 2022
+                    <img src="path/to/author-image.jpg" alt="Author" class="blog__author-image" /> Tony Nguyen
+                    <img src="path/to/date-icon.jpg" alt="Date" class="blog__date-icon" /> 20 Jun 2022
                 </p>
                 <h3 class="blog__post-heading">Sonic Live</h3>
                 <p class="blog__post-excerpt">
@@ -120,35 +123,35 @@
         </section>
 
         <section class="about-us">
-            <h2 class="about-us__title">About us</h2>
+            <h2 class="about-us__title">About Us</h2>
             <p class="about-us__description">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur...
             </p>
             <ol class="about-us__list">
                 <li class="about-us__list-item">
-                    <h3>High quality</h3>
+                    <h3>High Quality</h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting
                         industry.
                     </p>
                 </li>
                 <li class="about-us__list-item">
-                    <h3>Big collection</h3>
+                    <h3>Big Collection</h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting
                         industry.
                     </p>
                 </li>
                 <li class="about-us__list-item">
-                    <h3>Top resource</h3>
+                    <h3>Top Resource</h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting
                         industry.
                     </p>
                 </li>
                 <li class="about-us__list-item">
-                    <h3>Big community</h3>
+                    <h3>Big Community</h3>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting
                         industry.
@@ -157,8 +160,86 @@
             </ol>
 
             <h2>Our Team</h2>
-            <article>
-                <img src="jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+            <article class="about-us__team-member">
+                <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                <h3>Jason Smith</h3>
+                <p>Co-Founder</p>
+                <div>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    |
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    |
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    |
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    |
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+ <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                <h3>Jason Smith</h3>
+                <p>Co-Founder</p>
+                <div>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    |
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    |
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    |
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    |
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+ <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                <h3>Jason Smith</h3>
+                <p>Co-Founder</p>
+                <div>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    |
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    |
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    |
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    |
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+ <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                <h3>Jason Smith</h3>
+                <p>Co-Founder</p>
+                <div>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    |
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    |
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    |
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    |
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+ <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                <h3>Jason Smith</h3>
+                <p>Co-Founder</p>
+                <div>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    |
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    |
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    |
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    |
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+ <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                <h3>Jason Smith</h3>
+                <p>Co-Founder</p>
+                <div>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    |
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    |
+                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    |
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    |
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+ <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
                 <h3>Jason Smith</h3>
                 <p>Co-Founder</p>
                 <div>

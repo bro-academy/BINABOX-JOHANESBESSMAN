@@ -16,7 +16,7 @@
         </a>
         <nav class="main-navigation">
             <ul class="main-navigation__list">
-                <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="https://fr63jl.csb.app/index.html" class="header__nav-link">Home</a></li>
                 <li class="main-navigation__list-item"><a href="contact.html">Contact</a></li>
                 <li class="header__nav-item"><a href="blog.html" class="header__nav-link">Blog</a></li>
                 <li class="main-navigation__list-item"><a href="catalog.html">Catalog</a></li>

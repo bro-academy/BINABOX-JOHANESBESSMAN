@@ -15,7 +15,7 @@
       </a>
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
+          <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li><!-- Link to index page -->
           <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
           <li class="header__nav-item"><a href="blog.html" class="header__nav-link">Blog</a></li>
           <li class="header__nav-item"><a href="catalog.html" class="header__nav-link">Catalog</a></li>

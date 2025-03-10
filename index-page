@@ -14,9 +14,9 @@
         </a>
         nav class="main-navigation">
         <ul class="main-navigation__list">
-            <li class="main-navigation__list-item"><a href="index.html">Home</a></li> <!-- Link to index page -->
+            <li class="main-navigation__list-item"><a href="index.html">Home</a></li> 
             <li class="main-navigation__list-item"><a href="contact.html">Contact</a></li>
-            <li class="main-navigation__list-item"><a href="blog.html">Blog</a></li>
+            <li class="main-navigation__list-item"><a href="blog.html">Blog</a></li><!-- Link to blog page -->
             <li class="main-navigation__list-item"><a href="catalog.html">Catalog</a></li>
         </ul>
         </nav>

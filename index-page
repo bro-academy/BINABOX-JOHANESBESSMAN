@@ -12,13 +12,15 @@
         <a href="index.html">
             <img src="path/to/binabox-logo.jpg" alt="Binabox-logo" />
         </a>
-        <nav class="main-navigation">
-            <ul class="main-navigation__list">
-                <li class="main-navigation__list-item"><a href="index.html">Home</a></li>
-                <li class="main-navigation__list-item"><a href="contact.html">Contact</a></li>
-                <li class="main-navigation__list-item"><a href="blog.html">Blog</a></li>
-                <li class="main-navigation__list-item"><a href="catalog.html">Catalog</a></li>
-            </ul>
+        nav class="main-navigation">
+        <ul class="main-navigation__list">
+            <li class="main-navigation__list-item"><a href="index.html">Home</a></li> <!-- Link to index page -->
+            <li class="main-navigation__list-item"><a href="contact.html">Contact</a></li>
+            <li class="main-navigation__list-item"><a href="blog.html">Blog</a></li>
+            <li class="main-navigation__list-item"><a href="catalog.html">Catalog</a></li>
+        </ul>
+        </nav>
+        </ul>
         </nav>
         <div>
             <button type="button" class="button button--secondary header__button">Discord</button>
@@ -107,7 +109,8 @@
             <h2 class="blog__title">Our Blog</h2>
 
             <article class="blog__post">
-                <h3 class="blog__post-title"><a href="#">NFT <img src="path/to/nft-icon.jpg" alt="NFT Icon" class="blog__post-icon" /></a>
+                <h3 class="blog__post-title"><a href="#">NFT <img src="path/to/nft-icon.jpg" alt="NFT Icon"
+                            class="blog__post-icon" /></a>
                 </h3>
                 <p class="blog__post-meta">
                     <img src="path/to/author-image.jpg" alt="Author" class="blog__author-image" /> Tony Nguyen
@@ -174,85 +177,97 @@
                     <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     |
                     <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
- <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
-                <h3>Jason Smith</h3>
-                <p>Co-Founder</p>
-                <div>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    |
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    |
-                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-                    |
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    |
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
- <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
-                <h3>Jason Smith</h3>
-                <p>Co-Founder</p>
-                <div>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    |
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    |
-                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-                    |
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    |
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
- <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
-                <h3>Jason Smith</h3>
-                <p>Co-Founder</p>
-                <div>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    |
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    |
-                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-                    |
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    |
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
- <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
-                <h3>Jason Smith</h3>
-                <p>Co-Founder</p>
-                <div>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    |
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    |
-                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-                    |
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    |
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
- <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
-                <h3>Jason Smith</h3>
-                <p>Co-Founder</p>
-                <div>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    |
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    |
-                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-                    |
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    |
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
- <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
-                <h3>Jason Smith</h3>
-                <p>Co-Founder</p>
-                <div>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
-                    |
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    |
-                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
-                    |
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    |
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                </div>
+                    <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                    <h3>Jason Smith</h3>
+                    <p>Co-Founder</p>
+                    <div>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        |
+                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        |
+                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                        |
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        |
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                        <h3>Jason Smith</h3>
+                        <p>Co-Founder</p>
+                        <div>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                            |
+                            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                            |
+                            <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                            |
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            |
+                            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                            <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                            <h3>Jason Smith</h3>
+                            <p>Co-Founder</p>
+                            <div>
+                                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                                |
+                                <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                |
+                                <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                                |
+                                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                                |
+                                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                                <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                                <h3>Jason Smith</h3>
+                                <p>Co-Founder</p>
+                                <div>
+                                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                                    |
+                                    <a href="https://facebook.com/" target="_blank"
+                                        rel="noopener noreferrer">Facebook</a>
+                                    |
+                                    <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                                    |
+                                    <a href="https://linkedin.com/" target="_blank"
+                                        rel="noopener noreferrer">LinkedIn</a>
+                                    |
+                                    <a href="https://instagram.com/" target="_blank"
+                                        rel="noopener noreferrer">Instagram</a>
+                                    <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                                    <h3>Jason Smith</h3>
+                                    <p>Co-Founder</p>
+                                    <div>
+                                        <a href="https://twitter.com/" target="_blank"
+                                            rel="noopener noreferrer">Twitter</a>
+                                        |
+                                        <a href="https://facebook.com/" target="_blank"
+                                            rel="noopener noreferrer">Facebook</a>
+                                        |
+                                        <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+                                        |
+                                        <a href="https://linkedin.com/" target="_blank"
+                                            rel="noopener noreferrer">LinkedIn</a>
+                                        |
+                                        <a href="https://instagram.com/" target="_blank"
+                                            rel="noopener noreferrer">Instagram</a>
+                                        <img src="path/to/jason-smith.jpg" alt="Jason Smith - Co-Founder" />
+                                        <h3>Jason Smith</h3>
+                                        <p>Co-Founder</p>
+                                        <div>
+                                            <a href="https://twitter.com/" target="_blank"
+                                                rel="noopener noreferrer">Twitter</a>
+                                            |
+                                            <a href="https://facebook.com/" target="_blank"
+                                                rel="noopener noreferrer">Facebook</a>
+                                            |
+                                            <a href="https://t.me/" target="_blank"
+                                                rel="noopener noreferrer">Telegram</a>
+                                            |
+                                            <a href="https://linkedin.com/" target="_blank"
+                                                rel="noopener noreferrer">LinkedIn</a>
+                                            |
+                                            <a href="https://instagram.com/" target="_blank"
+                                                rel="noopener noreferrer">Instagram</a>
+                                        </div>
             </article>
         </section>
     </main>

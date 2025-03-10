@@ -260,7 +260,59 @@
                     <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
             </article>
-        </section>
+            </section>
+        
+            <!-- FAQs Section -->
+            <section class="faq">
+                <h2 class="faq__title">FAQs</h2>
+                <details class="faq__item">
+                    <summary class="faq__question">What are NFTs?</summary>
+                    <p class="faq answer">
+                        Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis.
+                        Nulla dapibus urna volutpat venenatis, risus faucibus.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>How do I get NFTs?</summary>
+                </details>
+
+                <details>
+                    <summary>How can we buy your NFTs?</summary>
+                </details>
+
+                <details>
+                    <summary>Who are the team behind the project?</summary>
+                </details>
+
+                <p><img src="#" alt="#" /> Binabox</p>
+                <p>We are the best way to check the rarity of NFT collection.</p>
+
+                <footer class="footer">
+                    <h2 class="footer__title">Subscribe</h2>
+
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a href="index.html" class="footer__nav-link">Home</a></li>
+                            <li class="footer__nav-item"><a href="blog.html" class="footer__nav-link">Blog</a></li>
+                            <li class="footer__nav-item"><a href="catalog.html" class="footer__nav-link">Catalog</a>
+                            </li>
+                            <li class="footer__nav-item"><a href="contact.html" class="footer__nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <p class="footer__copyright">BINABOX 2022 - All rights reserved</p>
+
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social-link">Twitter</a>
+                        <a href="#" class="footer__social-link">Facebook</a>
+                        <a href="#" class="footer__social-link">Telegram</a>
+                        <a href="#" class="footer__social-link">YouTube</a>
+                        <a href="#" class="footer__social-link">TikTok</a>
+                    </div>
+                </footer>
+            </section>
     </main>
 </body>
 

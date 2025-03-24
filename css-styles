@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400&display=swap');
+
+/* General Reset */
 
 body {
-    background-color: #0d0d15;
-    color: #F5F8FB;
-    font-family: "Poppins", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+  background-color: #0d0d15;
+  color: #F5F8FB;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 ul {
   list-style: none;
   padding: 0px;
 }
-
 
 /********** HOMEPAGE STARTS HERE ************/
 
@@ -140,7 +140,7 @@ ul {
   padding: 64px;
 }
 
-.section-title--catalog {
+.section-title--catalog { 
   color: #F8F7FF;
   font-size: 24px;
   line-height: 32px;
@@ -163,7 +163,6 @@ ul {
   text-align: center;
   font-family: "Bakbak One", "Georgia", sans-serif;
 }
-
 
 .catalog__button--all {
   background-color: transparent;
@@ -470,7 +469,6 @@ ul {
   display: inline-block;
 }
 
-
 .footer-nav__title {
   font-weight: 500;
   line-height: 28px;
@@ -665,7 +663,7 @@ ul {
   line-height: 24px;
 }
 
-.tag-list__item { /* this class also applies to side section tags */
+.tag-list__item { 
   height: 32px;
   padding-block: 6px;
   padding-inline: 12px;
@@ -676,7 +674,7 @@ ul {
   border: 2px solid #D0D7FB2B;
 }
 
-.tag-list__link { /* this class also applies to side section tags */
+.tag-list__link { 
   color: #F8F7FF;
   text-decoration: none;
   font-weight: 600;

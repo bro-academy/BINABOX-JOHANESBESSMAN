@@ -53,7 +53,7 @@ ul {
   
   .main-nav__link:active {
     color: #0054b6;
-    font-weight: 590;
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
   }
@@ -682,17 +682,17 @@ ul {
 
 .footer-nav__link:hover {
   color: #3892f3;
-  font-weight: 590;
+  font-weight: 500;
 }
 
 .footer-nav__link:focus {
-  font-weight: 590;
+  font-weight: 500;
   border: 4px solid #3892f3;
 }
 
 .footer-nav__link:active {
   color: #0054b6;
-  font-weight: 590;
+  font-weight: 500;
 }
 
 .copyright__text {
@@ -746,7 +746,7 @@ ul {
   .hero-section__link:hover,
   .hero-section__link:focus,
   .hero-section__link:active {
-    font-weight: 590;
+    font-weight: 600;
     font-size: 12px;
     line-height: 12px;
   }
@@ -855,7 +855,7 @@ ul {
   .blog-article__word:hover,
   .blog-article__word:focus,
   .blog-article__word:active {
-    font-weight: 590;
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
   }
@@ -934,7 +934,7 @@ ul {
   .tag-list__link:hover,
   .subarticle__socials-link:hover {
     color: #3892F3;
-    font-weight: 590;
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
   }
@@ -942,7 +942,7 @@ ul {
   .tag-list__link:active,
   .subarticle__socials-link:active {
     color: #0054B6;
-    font-weight: 590;
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
   }
@@ -992,21 +992,21 @@ ul {
     color: #3892f3;
     font-size: 12px;
     line-height: 16px;
-    font-weight: 590;
+    font-weight: 600;
   }
   
   .aside__block-link:focus {
     border: 4px solid #3892f3;
     font-size: 12px;
     line-height: 16px;
-    font-weight: 590;
+    font-weight: 600;
   }
   
   .aside__block-link:active {
     color: #0054b6;
     font-size: 12px;
     line-height: 16px;
-    font-weight: 590;
+    font-weight: 600;
   }
   
   .social-media__list-item {

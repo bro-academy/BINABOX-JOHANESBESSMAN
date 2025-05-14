@@ -123,14 +123,13 @@ body {
     line-height: 28px;
   }
   
-  .hero-section__button--secondary 
-   {
+  .hero-section__button--secondary {
     background-color: transparent;
     border: 2px solid; color: #D0D7FB2B;
     font-size: 18px;
-    line-height: 28px;a
+    line-height: 28px;}
   
-  .hero-section__button--text{
+  .hero-section__button--text {
     color: #F5F8FB;
     }
     .header {
